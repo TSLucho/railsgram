@@ -6,7 +6,8 @@ ruby '2.6.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.4.4', '< 0.6.0'
+gem 'mysql2', '>= 0.5.2'
+# gem 'mysql', '~> 2.9', '>= 2.9.1'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -16,14 +17,18 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
-#Bootstrap 4.3.1
+# Bootstrap 4.3.1
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
-#Carrierwave 1.3.1
+# Jquery Rails 4.3.5
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+# Carrierwave 1.3.1
 gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 # Use ActiveStorage variant
 gem 'mini_magick', '~> 4.8'
-#Devise 4.6.2
+# Devise 4.6.2
 gem 'devise', '~> 4.6', '>= 4.6.2'
+# Font-awesome 5
+gem 'font_awesome5_rails'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
