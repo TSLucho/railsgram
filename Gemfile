@@ -23,7 +23,7 @@ gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 # Use ActiveStorage variant
 gem 'mini_magick', '~> 4.8'
 #Devise 4.6.2
-gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'devise', '~> 4.7'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
