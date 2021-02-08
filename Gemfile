@@ -19,7 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 #Bootstrap 4.3.1
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 #Carrierwave 1.3.1
-gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'carrierwave', '~> 1.3'
 # Use ActiveStorage variant
 gem 'mini_magick', '~> 4.8'
 #Devise 4.6.2
